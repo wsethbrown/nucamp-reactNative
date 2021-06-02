@@ -55,10 +55,16 @@ function RenderCampsite(props) {
                     ],
                     {cancelable: false}
                 )
+            } if (recognizeComment(gestureState)){
+                props.onShowModal()
             }
             return true
         }
     })
+    
+    const recognizeComment = ({dx}) => (dx > 200) ? true : false
+
+    
 
     if (campsite) {
         return (
