@@ -27,7 +27,6 @@ class Contact extends Component {
                         title="Contact Information"
                         wrapperStyle={{marin: 20}}
                     >
-
                         <Text>1 Nucamp Way</Text>
                         <Text>Seattle, WA 98001</Text>
                         <Text style={{marginBottom: 10}}>U.S.A</Text>
